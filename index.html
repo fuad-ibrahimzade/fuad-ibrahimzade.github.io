@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}libs/font-awesome/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <header class="sticky">
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <div id="lead">
+        <div id="lead-content">
+            <img src="images/profile.jpg" class="img-fluid mx-auto img-thumbnail" style="width: 200px"/>
+            <h1 style="text-align: center;" >Fuad Ibrahimzada</h1>
+            <h2>Software Developer</h2>
+            <a href="files/CV.pdf" class="btn-rounded-white" download="CV">Download Resume</a>
+        </div>
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h2 class="heading" style="text-align: center">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size: 20px; text-align: center">
+                            Software Developer from Baku, Azerbaijan
+                    </p>
+                    <p style="font-size: 18px; text-align: center">
+                            <em class="" href="tel:+994555861083">
+                                    <i class="fa fa-phone mr-2"></i>
+                                    +994 55 586 10 83
+                            </em>
+                    </p>
+                    <p style="font-size: 18px; text-align: center">
+                        <a class="" href="mailto:fuad.ibrahimzada@gmail.com">
+                            <i class="fa fa-envelope mr-2"></i>
+                            fuad.ibrahimzada@gmail.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_technews.jpg" style=" max-width: 320px; margin-top: 4%">
+                    </div>
+                    <div class=" project-info text-center" style="">
+                        <h3 style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technews - Technology News Website</h3>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Project implements webste using single page aplication and api technologies. 
+                        </p>
+                        <a  href="https://technologynews.herokuapp.com" target="_blank">View Project</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a  href="https://github.com/fuad-ibrahimzade/tech-news" target="_blank" class="fa fa-github">   Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">PHP, Angular 5+, JS, Bootstrap 4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_photografolio.jpg" style=" max-width: 320px; margin-top: 4%">
+                    </div>
+                    <div class=" project-info text-center" style="">
+                        <h3 style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Photografolio - Portfolio Website for Photographer</h3>
+                        <p >
+                            Project impements single page application using laravel rest api and vue.js. 
+                        </p>
+                        <a  href="https://photografolio.herokuapp.com" target="_blank" class="fa fa-globe">    View Project</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a  href="https://github.com/fuad-ibrahimzade/photographer-portfolio" target="_blank" class="fa fa-github">   Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">PHP, Laravel 5, JS, Bootstrap 4, Vue.js 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_faceads.jpg" style=" max-width: 320px; margin-top: 4%">
+                    </div>
+                    <div class=" project-info text-center" style="">
+                        <h3 style="">Faceads - Social Media Marketing Analitics</h3>
+                        <p >
+                            Project offers marketing agencies and freelancers a place to promote themselves to business marks. 
+                        </p>
+                        <a  href="https://facereklam.herokuapp.com" target="_blank" class="fa fa-globe">    View Project</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a  href="https://github.com/fuad-ibrahimzade/face-ads" target="_blank" class="fa fa-github">   Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">PHP, Laravel 5, JS, Bootstrap 4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_cartv_bidder.jpg" style="max-width: 320px; margin-top: 4%" />
+                    </div>
+                    <div class=" project-info text-center">
+                        <h3>Cartv.eu Auction Price Bidder</h3>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Project implements bidding algorithm for increasing efficiency probability of car purchases.
+                        </p>
+                        <a href="https://github.com/fuad-ibrahimzade/car-auction-bidder" target="_blank" class="fa fa-github">   View Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">Node.js, Web-Scrapping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_tipico_bettor.jpg" style="max-width: 320px; margin-top: 4%" />
+                    </div>
+                    <div class=" project-info text-center">
+                        <h3>Tipico.de Website Football Bettor</h3>
+                        <p>
+                            This Project implemented to perform specific over/under betting strategy after second half of the match if specific score archieved.
+                        </p>
+                        <a href="https://github.com/fuad-ibrahimzade/sports-bettor" target="_blank" class="fa fa-github">    View Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">Node.js, Web-Scrapping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_deribit_bot.jpg" style="max-width: 320px; margin-top: 4%" />
+                    </div>
+                    <div class=" project-info text-center">
+                        <h3>Deribit Algorithmic Trading Bot</h3>
+                        <p>
+                            Project implements trading on futures trading platform deribit.com based on specific technical indicator results.
+                        </p>
+                        <a href="https://github.com/fuad-ibrahimzade/deribit-trading-bots" target="_blank" class="fa fa-github"> View Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">Python, Matplotlib Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_quantiacs.jpg" style="max-width: 320px; margin-top: 4%" />
+                    </div>
+                    <div class=" project-info text-center">
+                        <h3>Quantiacs Hedge Fund Trading Strategies</h3>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Project implements multipe trading strategies on international futures trading products offered by Quantiacs Hedgefund.
+                        </p>
+                        <a href="https://github.com/fuad-ibrahimzade/quantiacs-strategies" target="_blank" class="fa fa-github"> View Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">Python, Matplotlib Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_asqme.jpg" style="max-width: 320px; margin-top: 4%" />
+                    </div>
+                    <div class=" project-info text-center">
+                        <h3>Question & Answers Website Project</h3>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Project implements website like stack overflow using technologies like asp.net core, dapper, bootstrap and jquery.
+                        </p>
+                        <a href="https://github.com/fuad-ibrahimzade/asqme" target="_blank" class="fa fa-github"> View Project Code</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">ASP.NET Core, Razor Views, Dapper, Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 project shadow-large" style="padding-bottom: 2%">
+                    <div class=" project-image">
+                        <img src="images/project_glowcells.jpg" style="max-width: 320px; margin-top: 4%" />
+                    </div>
+                    <div class=" project-info text-center">
+                        <h3>Android game and apps</h3>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project implements multiplayer game similar too agar.io and wifi file transfer tool.
+                        </p>
+                        <a href="https://apkpure.com/glow-cells/com.fivegalacticgames.glowcells" target="_blank" class="fa fa-download">    View Game</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://apk-dl.com/simple-wifi-transfer/fivegalacticgames.simplewifitransfer" target="_blank" class="fa fa-download">  View App</a>
+                        <div >
+                            <span style="font-size: 1.2em; color: #74808a">Technologies:</span>
+                            <span style=" color: #74808a">Android, Java SE, Unity Engine</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li data-toggle="tooltip" data-placement="right" title="80%">
+                <span>Laravel</span>
+                <div style="width: 80%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="70%">
+                <span>PHP</span>
+                <div style="width: 70%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="80%">
+                <span>JavaScript</span>
+                <div style="width: 80%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="70%">
+                <span>Vue.js</span>
+                <div style="width: 70%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="70%">
+                <span>Angular 5+</span>
+                <div style="width: 70%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="70%">
+                <span>MySql</span>
+                <div style="width: 70%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="30%">
+                <span>Node.js</span>
+                <div style="width: 30%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="50%">
+                <span>ASP.NET Core</span>
+                <div style="width: 50%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="30%">
+                <span>Android</span>
+                <div style="width: 30%"></div>
+            </li>
+            <li data-toggle="tooltip" data-placement="right" title="50%">
+                <span>Unity Engine</span>
+                <div style="width: 50%"></div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/fuad.ibrahimzada@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from github portfolio" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Fuad Ibrahimzade
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/fuad-ibrahimzade" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
